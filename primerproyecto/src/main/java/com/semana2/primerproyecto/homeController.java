@@ -11,9 +11,8 @@ public class homeController {
 
     @GetMapping("/")
     public String home(Model model){
-        
-        model.addAttribute("Jordy", "estudiante"); //nombre debe calzar con el del htlm
+        model.addAttribute("nombre", "estudiante"); //nombre debe calzar con el del htlm
         return "home"; 
-    }
+    }  
 
 }
